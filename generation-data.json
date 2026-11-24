@@ -1,0 +1,115 @@
+{
+  "generations": [
+    {
+      "new": "Amadeus, Helga, Jabel, Saul",
+      "bearBudget": "Howard/Jabel/Quinn",
+      "bearLead": "Amadeus/Jabel/Saul",
+      "attack": "Amadeus/Jabel/Saul",
+      "defense": "Helga/Jabel/Saul",
+      "solo": "Amadeus/Jabel/Saul",
+      "gen": 1,
+      "bearExtra": "",
+      "note": "Helga statt Amadeus prüfen; frühe epische Helden bleiben eine bezahlbare Option."
+    },
+    {
+      "new": "Zoe, Hilde, Marlin",
+      "bearBudget": "Zoe/Jabel/Quinn",
+      "bearLead": "Amadeus/Hilde/Marlin",
+      "attack": "Amadeus/Hilde/Marlin",
+      "defense": "Zoe/Hilde/Saul",
+      "solo": "Zoe/Hilde/Marlin",
+      "gen": 2,
+      "bearExtra": "Hilde (Hybridbonus; Ersatz)",
+      "note": "Marlin ist ein offensiver Bogenschütze; Zoe dient vor allem der Verteidigung."
+    },
+    {
+      "new": "Eric, Petra, Jaeger",
+      "bearBudget": "Zoe/Petra/Quinn",
+      "bearLead": "Amadeus/Petra/Marlin",
+      "attack": "Amadeus/Petra/Marlin",
+      "defense": "Eric/Hilde/Jaeger",
+      "solo": "Amadeus/Petra/Jaeger",
+      "gen": 3,
+      "bearExtra": "",
+      "note": "Petra ist ein offensiver Kavallerieheld; Eric und Jaeger sind Verteidigungskandidaten. Quinn oder Jaeger als Bogenschützen-Alternative anhand des Ausbaus vergleichen."
+    },
+    {
+      "new": "Alcar, Margot, Rosa",
+      "bearBudget": "Zoe/Petra/Rosa",
+      "bearLead": "Amadeus/Petra/Rosa",
+      "attack": "Amadeus/Petra/Rosa",
+      "defense": "Alcar/Margot/Jaeger",
+      "solo": "Alcar/Margot/Rosa",
+      "gen": 4,
+      "bearExtra": "Margot (Angriff)",
+      "note": "Rosa für offensive Rallys testen; Alcar und Margot für Garnison."
+    },
+    {
+      "new": "Long Fei, Thrud, Vivian",
+      "bearBudget": "Zoe/Petra/Rosa",
+      "bearLead": "Amadeus/Petra/Rosa",
+      "attack": "Long Fei/Thrud/Rosa",
+      "defense": "Alcar/Margot/Vivian",
+      "solo": "Long Fei/Thrud/Vivian",
+      "gen": 5,
+      "bearExtra": "Vivian (gegnerisch erlittener Schaden; Stapelwirkung offen)",
+      "note": "Long Fei im PvP testen, Amadeus beim Bären nicht vorschnell ersetzen."
+    },
+    {
+      "new": "Triton, Sophia, Yang",
+      "bearBudget": "Zoe/Petra/Rosa",
+      "bearLead": "Amadeus/Petra/Yang",
+      "attack": "Triton/Thrud/Yang",
+      "defense": "Triton/Sophia/Vivian",
+      "solo": "Triton/Sophia/Yang",
+      "gen": 6,
+      "bearExtra": "",
+      "note": "Yang stärkt offensive Rallys; Triton und Sophia sind defensive Kandidaten."
+    },
+    {
+      "new": "Charles, Ava, Wee & Woo",
+      "bearBudget": "Zoe/Petra/Yang",
+      "bearLead": "Amadeus/Ava/Yang",
+      "attack": "Triton/Ava/Yang",
+      "defense": "Charles/Sophia/Wee & Woo",
+      "solo": "Charles/Ava/Wee & Woo",
+      "gen": 7,
+      "bearExtra": "Ava (Verteidigungssenkung), Wee & Woo (Angriff/Tödlichkeit)",
+      "note": "Ava als Kavallerie-Offensive und Charles als Garnisonsanker testen."
+    },
+    {
+      "new": "Diego, Liz, Luna",
+      "bearBudget": "Diego/Petra/Yang",
+      "bearLead": "Amadeus/Ava/Luna",
+      "attack": "Triton/Ava/Luna",
+      "defense": "Charles/Liz/Wee & Woo",
+      "solo": "Diego/Liz/Luna",
+      "gen": 8,
+      "bearExtra": "Luna (Angriff)",
+      "note": "Luna für Bogenschützen-Offensive, Liz für Verteidigung prüfen; Diego ist ein zugänglicher Infanterieheld."
+    },
+    {
+      "gen": 9,
+      "new": "Lotte, Bayar, Theia (Community-Daten)",
+      "bearLead": "Lotte/Bayar/Luna",
+      "bearBudget": "Diego/Petra/Yang",
+      "attack": "Triton/Ava/Luna",
+      "defense": "Charles/Liz/Wee & Woo",
+      "solo": "Diego/Liz/Luna",
+      "bearExtra": "",
+      "note": "Generation 9: Lotte (Infanterie), Bayar (Kavallerie), Theia (Bogenschützen) laut Community-Daten vom 10.11.2026. Noch nicht unabhängig offiziell bestätigt. Bären-Rally mit Bayar testweise; PvP und günstige Aufstellungen bleiben bis zu besseren Belegen Gen-8-Vergleichsaufstellungen. Theia als Alternative zu Luna nur nach Skillprüfung."
+    }
+  ],
+  "sources": [
+    "https://kingshotwiki.com/heroes/",
+    "https://ks-toolkit.com/data/events/bear-hunt/",
+    "https://kingshotguides.com/guide/kingshot-hero-lineup-guide-solo-rally-garrison/",
+    "https://kingshotmastery.com/guides/kingshot-hero-tier-list",
+    "https://kingshotwiki.com/castle-battle-for-beginners/",
+    "https://ks-toolkit.com/guides/vikings-vengeance/",
+    "https://kingshot.cloud/guides/kingshot-gen-9-heroes",
+    "https://kingshot.cloud/guides/kingshot-bear-trap",
+    "https://strategicnoodle.com/kingshot/database/heroes",
+    "https://centurygames.helpshift.com/hc/en/140-kingshot/faq/9047-castle-battle-1783425489/"
+  ]
+}

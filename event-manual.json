@@ -1,0 +1,639 @@
+[
+  {
+    "id": "bear",
+    "title": "Bärenfalle / Bärenjagd",
+    "sub": "PvE · Schaden maximieren",
+    "points": [
+      "Persönliche Belohnungen richten sich nach dem erzielten Schaden. Die nächste erreichbare Belohnungsstufe ist wichtiger als ein unrealistischer Rang.",
+      "Nach jeder Rally den Schaden im Bericht notieren; gleiche Leiter, Truppenstufe und Boni vergleichen.",
+      "Beispiel-Meilensteine der veröffentlichten Belohnungstabelle: 100 Mio., 250 Mio., 500 Mio., 1 Mrd. Schaden. Prüfe deine tatsächlich sichtbaren Stufen.",
+      "Die Jagd dauert laut Community-Guide 30 Minuten. Bei zwei Fallen Teilnahmeberechtigung und Abklingzeit im Spiel prüfen; keine doppelte Belohnung voraussetzen."
+    ],
+    "heroes": [
+      [
+        "Teilnehmer",
+        "Chenko / Yeonwoo / Amadeus",
+        "Offensive erste Expeditionsfähigkeit: Tödlichkeit; bei Chenko und Yeonwoo auf Stufe 5 +25 %."
+      ],
+      [
+        "Teilnehmer",
+        "Amane",
+        "Angriff +25 % auf Fähigkeitsstufe 5; kann eine Tödlichkeitskombination ergänzen."
+      ],
+      [
+        "Teilnehmer",
+        "Margot / Wee & Woo / Luna",
+        "Spätere Generationen: erste Fähigkeit und Ausbaustand vergleichen."
+      ],
+      [
+        "Teilnehmer Gen 5 / 7",
+        "Vivian / Ava",
+        "Vivian erhöht erlittenen Schaden des Gegners, Ava senkt gegnerische Verteidigung; jeweils 25 % auf Stufe 5 laut Referenz."
+      ],
+      [
+        "Leiter Gen 1",
+        "Howard – Jabel – Quinn",
+        "Beispiel ohne großen Geldeinsatz; alternativ Amadeus/Helga – Jabel – Saul."
+      ],
+      [
+        "Leiter Gen 2",
+        "Zoe – Jabel – Quinn",
+        "F2P-Beispiel; Amadeus – Hilde – Marlin als alternative Aufstellung."
+      ],
+      [
+        "Leiter Gen 3",
+        "Zoe – Petra – Quinn/Jaeger",
+        "Beispiel für F2P; bei bezahlten Helden auch Amadeus – Petra – Marlin prüfen."
+      ],
+      [
+        "Leiter Gen 4–6",
+        "Zoe – Petra – Rosa",
+        "F2P-Beispiel; Amadeus – Petra – Rosa/Yang für stärker investierte Konten."
+      ],
+      [
+        "Leiter später",
+        "Amadeus/Helga – Petra/Margot – aktueller offensiver Bogenschützenheld",
+        "Beispiele; keine feste Rangliste. Ausrüstung und tatsächliche Berichte entscheiden."
+      ]
+    ],
+    "ratios": [
+      [
+        "Ausgangspunkt",
+        10,
+        10,
+        80
+      ],
+      [
+        "Späterer Test",
+        1,
+        10,
+        89
+      ],
+      [
+        "Vergleich",
+        5,
+        15,
+        80
+      ]
+    ],
+    "steps": [
+      [
+        "Vorbereitung",
+        "Rally-Leiter, Startreihenfolge, erste Helden und Obergrenzen pro Teilnehmer festlegen; Jagdpfeile und verfügbare Boni im Spiel prüfen."
+      ],
+      [
+        "Start",
+        "Leiter mit guten Kampfattributen eröffnen; Teilnehmer setzen ihren vorgesehenen Bonushelden ganz nach vorn."
+      ],
+      [
+        "Währenddessen",
+        "Nur die erste Expeditionsfähigkeit des ersten Teilnehmerhelden kann einen der vier zusätzlichen Skillplätze belegen. Prüfe im Rally-Detail, welche vier Boni tatsächlich aktiv sind."
+      ],
+      [
+        "Optimierung",
+        "Rallys versetzt öffnen, Rückkehrzeiten beachten; Angriffs- und Tödlichkeitsmischungen anhand gleicher Bedingungen testen."
+      ],
+      [
+        "Nachbereitung",
+        "Persönlichen Schaden, Rallyanzahl, Leiter und Formation protokollieren; nächste Belohnungsstufe festlegen."
+      ],
+      [
+        "Abschlusspunkte",
+        "Persönlichen Gesamtschaden und nächste Belohnungsschwelle der konkreten Falle notieren. Pro Test nur einen Faktor ändern."
+      ]
+    ],
+    "mistakes": [
+      "Gordon, Howard oder Quinn als erste Teilnehmerhelden nicht einfach aus Gewohnheit verwenden. Wenn kein passender Skill frei ist, nach Absprache ohne Helden beitreten.",
+      "Keine starre Idealquote für jedes Konto: Truppenstufen, Helden und Boni verändern das Ergebnis.",
+      "Helden mit verteidigungsorientiertem oder zufallsabhängigem ersten Skill nicht als Standard-Teilnehmer einsetzen. Hilde ist ein möglicher Ersatz, nicht gleichwertig mit einem reinen offensiven Bonus.",
+      "Vier identische Boni sind nicht zwingend optimal; einen Mix aus Angriff und Tödlichkeit mit gleicher Rally-Leitung testen. Die Stapelwirkung von Vivian, Ava und Wee & Woo ist nicht abschließend geklärt."
+    ],
+    "plan": "BÄRENFALLE | Leiter: ___ | Start: ___ UTC\nTeilnehmer: Chenko / Yeonwoo / Amane nach Ansage in Slot 1, sonst nach Freigabe ohne Held.\nFormation I/K/B: 10/10/80 als Test. Rally-Limit: ___ Truppen.\nRallys versetzt starten. Nachher Schaden je Rally und Helden melden.",
+    "sources": [
+      "https://ks-toolkit.com/guides/bear-hunt/",
+      "https://kingshotwiki.com/events/bear-hunt/",
+      "https://kingshot.cloud/guides/kingshot-bear-trap",
+      "https://kingshotguides.com/guide/bear-hunt-expert-guide/",
+      "https://ks-toolkit.com/data/events/bear-hunt/",
+      "https://kingshot.cloud/guides/kingshot-bear-trap",
+      "https://strategicnoodle.com/kingshot/database/heroes",
+      "https://centurygames.helpshift.com/hc/en/140-kingshot/faq/9041-what-should-i-do-if-i-miss-bear-hunt/"
+    ]
+  },
+  {
+    "id": "viking",
+    "title": "Wikinger-Rache",
+    "sub": "PvE · 20 Wellen · gegenseitige Verteidigung",
+    "points": [
+      "Stadtverteidigung und Abschüsse bei Verbündeten sind unterschiedliche Punktquellen. Die Verstärkung erhält zusätzliche Punkte, ohne die Stadtwertung zu reduzieren.",
+      "Wellen 7, 14 und 17: nur Online-Spieler; besonders wertvoll. Wellen 10 und 20: Allianz-HQ. Nach zwei gescheiterten Verteidigungen wird die Stadt nicht mehr angegriffen.",
+      "Die persönliche Stadtwertung hängt vom Anteil besiegter Angreifer ab. Für Verstärker gibt es zusätzlich eine halbe anteilige Abschusswertung. Mindestens 50 % der Angreifer besiegen, damit die Verteidigung als gelungen gilt.",
+      "Falls der Meister Wilson freigeschaltet ist: Viking-Bounty-Fähigkeit prüfen. Der maximale Punktebonus beträgt laut Datenbank 50 %; tatsächliche Skillstufe und Truhenlimit im Spiel ablesen."
+    ],
+    "heroes": [
+      [
+        "Stadt",
+        "Drei stärkste Verteidigungshelden",
+        "In der Wachstation belassen; Fähigkeiten sollen die Verteidigung unterstützen."
+      ],
+      [
+        "Verstärkung",
+        "Chenko / Yeonwoo",
+        "Tödlichkeit als erster Skill für Abschüsse prüfen."
+      ],
+      [
+        "Verstärkung",
+        "Amane / Hilde",
+        "Angriffsbonus, bei Hilde zusätzlich Verteidigung."
+      ],
+      [
+        "HQ",
+        "Gordon / stärkste Garnisonshelden",
+        "Gordon bietet LP-Bonus; HQ-Führung nach Verteidigungswerten, Teilnehmer nach Ansage."
+      ]
+    ],
+    "ratios": [
+      [
+        "Stadtverstärkung · Test",
+        75,
+        25,
+        0
+      ],
+      [
+        "Infanterie pur · Test",
+        100,
+        0,
+        0
+      ],
+      [
+        "HQ · Vergleich A",
+        90,
+        10,
+        0
+      ],
+      [
+        "HQ · Vergleich B",
+        50,
+        50,
+        0
+      ]
+    ],
+    "steps": [
+      [
+        "Vor Welle 1",
+        "Partnergruppen bilden; Truppen zu Partnern schicken, mindestens Infanterie und Kavallerie auslagern. Stadt nicht ungeschützt lassen: eingehende Verstärkung prüfen."
+      ],
+      [
+        "Welle 7",
+        "Online bleiben und Online-Partner rechtzeitig verstärken."
+      ],
+      [
+        "Nach Welle 9",
+        "Vereinbarte HQ-Märsche rechtzeitig umleiten; Kapazität und Teilnehmerlimit beachten."
+      ],
+      [
+        "Welle 10",
+        "HQ verteidigen; danach Partner wieder verstärken."
+      ],
+      [
+        "Wellen 14 und 17",
+        "Online-Städte priorisieren. Bei zwei Fehlverteidigungen Ziel wechseln."
+      ],
+      [
+        "Nach Welle 19 / Welle 20",
+        "Stärkste HQ-Besetzung einsetzen, nach aktuellem Schwierigkeitsgrad."
+      ],
+      [
+        "Nach dem Event",
+        "Punkte aus Stadt, Verstärkungen und HQ getrennt auswerten. Schwierigkeit nur erhöhen, wenn die Allianz ausreichend verteidigt."
+      ],
+      [
+        "Partnerrotation",
+        "Nach zwei gescheiterten Stadtverteidigungen die dortigen Märsche auf noch aktive Ziele verlegen. HQ-Märsche erst nach Ende der vorherigen Welle umleiten; Laufzeit beachten."
+      ]
+    ],
+    "mistakes": [
+      "Während normaler Wellen nicht unnötig heilen: zurückkehrende Truppen konkurrieren mit Verstärkern um Abschüsse.",
+      "Nicht vor Abschluss von Welle 9 oder 19 voreilig alle Verstärkungen abziehen. HQ-Anreise rechtzeitig berücksichtigen.",
+      "Keine starre Infanteriequote fürs HQ: bei schweren Wellen Kavallerieanteil anhand der Berichte vergleichen. Stadtverteidigung und HQ-Verteidigung getrennt bewerten."
+    ],
+    "plan": "WIKINGER | Start: ___ UTC | Schwierigkeit: ___\nPartnergruppen: ___ | Online-Wellen 7/14/17.\nInfanterie/Kavallerie zuerst auslagern; starke Helden in Wachstation. Verstärkung mit offensivem Slot 1.\nHQ W10/W20: Leiter ___, Limit ___, Formation nach Ansage. Nicht unnötig heilen.",
+    "sources": [
+      "https://ks-toolkit.com/guides/vikings-vengeance/",
+      "https://www.kingshotcommand.com/events/viking-vengeance",
+      "https://kingshotpro.com/viking-vengeance-guide.html",
+      "https://kingshotalmanach.com/events/viking-vengeance/",
+      "https://ks-toolkit.com/data/events/vikings-vengeance/",
+      "https://www.kingshotcommand.com/events/viking-vengeance",
+      "https://ks-toolkit.com/data/masters/wilson/"
+    ]
+  },
+  {
+    "id": "castle",
+    "title": "Kampf um das Königsschloss",
+    "sub": "PvP · Schloss und vier Türme",
+    "points": [
+      "Offizielles Hilfecenter (Recherche 24.11.2026): 2,5 Stunden Schlossbesetzung als Siegschwelle. Aktuelle Community-Referenz nennt 2,5 Stunden am Stück, sonst längste gesamte Besetzung. Ältere Guides nennen abweichende Werte; die laufende Ingame-Regel entscheidet.",
+      "Persönliche Wertung umfasst je nach Regelwerk Kampf und stationierte Truppenmacht. Belohnungen gegen Heilkosten und Verlustrisiko abwägen.",
+      "Ein Turm derselben Allianz beschießt das eigene Schloss nicht. Bei gegnerisch gehaltenen Türmen verkürzen sich die Beschussintervalle mit der Besetzungszeit."
+    ],
+    "heroes": [
+      [
+        "Angriffsleiter",
+        "Amadeus/Helga, Jabel, Saul (Gen 1)",
+        "Beispiel für entwickelte frühe legendäre Helden; spätere offensive Helden nach Bericht auswählen."
+      ],
+      [
+        "Angriffsleiter Gen 2–7",
+        "Marlin / Petra / Thrud / Yang / Ava",
+        "Mögliche offensive Helden verschiedener Klassen und Generationen. Je ein Held pro Truppentyp und kompatible Skills wählen."
+      ],
+      [
+        "Angriffsteilnehmer",
+        "Chenko / Yeonwoo / Amane",
+        "Offensive erste Fähigkeiten als mögliche Auswahl; Leitung entscheidet anhand Gegner."
+      ],
+      [
+        "Garnisonsteilnehmer",
+        "Gordon / Saul / Howard / Fahd",
+        "Defensive Optionen; passende erste Fähigkeit und Stufe prüfen."
+      ],
+      [
+        "Garnisonsleiter",
+        "Stärkstes defensives Trio",
+        "Nicht nach Gesamtmacht allein auswählen; Forschung, Ausrüstung und Garnisonswerte vergleichen."
+      ],
+      [
+        "Garnisonsleiter Gen 2–7",
+        "Zoe / Eric / Jaeger / Alcar / Margot / Long Fei / Triton / Charles",
+        "Beispiele defensiver Kandidaten je nach Generation; keine vollständige Trio-Aufstellung."
+      ]
+    ],
+    "ratios": [
+      [
+        "Angriff · Ausgangstest",
+        50,
+        20,
+        30
+      ],
+      [
+        "Garnison · Ausgangstest",
+        60,
+        20,
+        20
+      ],
+      [
+        "Garnison Alternative",
+        60,
+        40,
+        0
+      ],
+      [
+        "Angriff · 50/0/50 Vergleich",
+        50,
+        0,
+        50
+      ]
+    ],
+    "steps": [
+      [
+        "Vorbereitung",
+        "Krankenstation leeren, Heilbeschleuniger und Ressourcen bereithalten. Angriffsleiter, Stellvertreter, Garnisonsleiter, vier Turmteams und Heilkoordination bestimmen."
+      ],
+      [
+        "Eroberung",
+        "Türme sichern, bevor die Besetzung gefährdet wird. Angriffs-Rally und Übernahme-Rally anhand der Marschzeiten abstimmen."
+      ],
+      [
+        "Halten",
+        "Garnison nachfüllen, ausgewählte Skills und statgebenden Spieler nach Wechseln kontrollieren; Turmverluste sofort melden."
+      ],
+      [
+        "Heilung",
+        "Kleine Heilaufträge passend zur verfügbaren Allianzhilfe starten. Krankenhausbelegung beobachten."
+      ],
+      [
+        "Abschluss",
+        "Besetzungszeiten und Kampfberichte prüfen; Verlustgrenze respektieren."
+      ]
+    ],
+    "mistakes": [
+      "Bärenformation nicht unverändert ins PvP übernehmen.",
+      "Bei vollem Lazarett drohen dauerhafte Verluste. Keine blinden Soloangriffe für persönliche Punkte."
+    ],
+    "plan": "SCHLOSS | Start: ___ UTC | Leitung: ___\nAngriffsleiter ___ / Ersatz ___ / Garnison ___\nTurm N ___ / O ___ / S ___ / W ___\nAngriff I/K/B 50/20/30, Garnison 60/20/20 (Anpassung per Ansage).\nSlot-1-Helden nach Leitung; Garnison auffüllen und Krankenhaus überwachen.",
+    "sources": [
+      "https://ks-toolkit.com/guides/kings-castle/",
+      "https://kingshotworld.com/guides/kingshot-castle-battle-guide-formations-points/",
+      "https://centurygames.helpshift.com/hc/en/140-kingshot/faq/9125-combat-faq-1783436100/",
+      "https://kingshotguides.com/guide/kingshot-hero-lineup-guide-solo-rally-garrison/",
+      "https://centurygames.helpshift.com/hc/en/140-kingshot/faq/9047-castle-battle-1783425489/",
+      "https://kingshotalmanach.com/kingdom-of-power-guide/"
+    ]
+  },
+  {
+    "id": "kvk",
+    "title": "Kingdom of Power / KvK",
+    "sub": "Königreich gegen Königreich · Vorbereitung und Kampf",
+    "points": [
+      "Fünf Vorbereitungstage mit unterschiedlichen Wertungsaktionen; danach Kampf. Die Tageswertung im Spiel hat Vorrang.",
+      "Referenzwerte für passende Wertungstage: Truegold beim Gebäudeausbau 2.000; Mithril 40.000; 1 Minute gültiger Beschleunigung 30; Tempered Truegold 30.000. Nur gewertete und bereits freigeschaltete Aktionen zählen.",
+      "Kampfphase: Persönliche Wertung und Besetzungswertung im Spiel nachsehen. Die früher hinterlegten festen T8–T10-Kampfwerte sind nicht ausreichend aktuell bestätigt und wurden entfernt.",
+      "Falls Meister Olander bereits freigeschaltet ist, seine Oration vor der Vorbereitung prüfen: laut aktueller Datenbank +2 % Vorbereitungspunkte pro Skillstufe und zusätzliche tägliche Belohnungsschwellen."
+    ],
+    "heroes": [
+      [
+        "Kampf",
+        "Schlosskampf-Helden",
+        "Offensive und defensive Märsche getrennt speichern."
+      ],
+      [
+        "F2P",
+        "Ausgebaute statt neue, schwache Helden",
+        "Material nicht nur für eine Rangliste verbrauchen; passende Heldenrollen priorisieren."
+      ]
+    ],
+    "ratios": [],
+    "steps": [
+      [
+        "Tag 1 – Bau",
+        "Truegold, Baufortschritt und verfügbare Tagesaufgaben prüfen."
+      ],
+      [
+        "Tag 2 – Grundfähigkeiten",
+        "Forschung, Forschungsgold und Tageswertung kontrollieren."
+      ],
+      [
+        "Tag 3 – Haustiere",
+        "Zähmungsmaterial und geeignete Heldenaktionen nach Tagesliste."
+      ],
+      [
+        "Tag 4 – Heldenentwicklung",
+        "Ausrüstungsmaterial, Talismanwertung und Truppentraining nach aktueller Anzeige."
+      ],
+      [
+        "Tag 5 – Machtsteigerung",
+        "Gouverneursausrüstung, restliche passende Materialien; Kampfreserve nicht verbrauchen."
+      ],
+      [
+        "Kampftag",
+        "Schlossplan übernehmen; Schutz für Nichtteilnehmer, Heilung und Rückkehr vereinbaren."
+      ]
+    ],
+    "mistakes": [
+      "Nicht alles am ersten Tag ausgeben. Gleiche Gegenstände können an mehreren Tagen zählen; Tagesziele und Königreichsduelle abstimmen."
+    ],
+    "plan": "KVK | Tagesziele D1 ___ D2 ___ D3 ___ D4 ___ D5 ___\nMaterial nur gemäß Tagesliste ausgeben. Heilreserve behalten.\nKampfleitung ___ | Schutzplan ___ | Schloss- und Turmteams ___.",
+    "sources": [
+      "https://ks-toolkit.com/guides/kingdom-of-power/",
+      "https://ks-toolkit.com/data/events/kingdom-of-power/",
+      "https://kingshotalmanach.com/kingdom-of-power-guide/",
+      "https://kingshotdata.com/events/kingdom-of-power-kvk-event/",
+      "https://kingshotmastery.com/events/kingdom-of-power-kvk-event",
+      "https://kingshot.net/events/kingdom-of-power",
+      "https://ks.h5joy-games.com/events/kingdom-of-power/"
+    ]
+  },
+  {
+    "id": "sword",
+    "title": "Swordland Showdown",
+    "sub": "Allianz-PvP · Gebäude und Reliktpunkte",
+    "points": [
+      "Gebäude erzeugen Reliktpunkte nach erfolgreicher Einnahme. Erstbesetzung und gehaltene Gebäude sind entscheidend; verlorene Gebäude können gespeicherte Punkte kosten.",
+      "Der Schwertschrein öffnet in der Referenz nach 15 Minuten. Gebäude und persönliche Kampfwertung im aktuellen Event prüfen.",
+      "Beispiel für die Gebäudepriorität: Schwertschrein vor Heiligtümern und Abteien beim laufenden Punktertrag; Glockenturm und Stallungen unterstützen die Einnahme bzw. Mobilität.",
+      "Community-Referenz: volle Gebäudekontrolle nach 3 Minuten; der Glockenturm kann die Einnahmezeit halbieren. Die aktuelle Regelanzeige prüfen."
+    ],
+    "heroes": [
+      [
+        "Angriff",
+        "Chenko / Amane als mögliche Joiner",
+        "Getrennte Märsche für unterschiedliche erste Fähigkeiten."
+      ],
+      [
+        "Verteidigung",
+        "Howard / Quinn als defensive Optionen",
+        "Skills und Ausbaustand vergleichen."
+      ],
+      [
+        "Leiter",
+        "Stärkstes ausgebautes PvP-Trio",
+        "Für umkämpfte Gebäude reservieren."
+      ]
+    ],
+    "ratios": [
+      [
+        "Startformation",
+        50,
+        20,
+        30
+      ]
+    ],
+    "steps": [
+      [
+        "Aufstellung",
+        "Legion 1 mit zuverlässigen starken Spielern, Ersatz und Gebäudeteams besetzen."
+      ],
+      [
+        "Start",
+        "Heiligtümer, Glockenturm und Stallungen nach Gegnerstärke zuweisen."
+      ],
+      [
+        "Zweite Phase",
+        "Schwertschrein und Unterstützungsgebäude nur mit ausreichenden Verstärkungen halten."
+      ],
+      [
+        "Rückstand",
+        "Frei werdende Punktetransporte sammeln und weniger umkämpfte Ziele nutzen."
+      ],
+      [
+        "Ende",
+        "Truppen heilen bei Eventende; beim vorzeitigen Verlassen aktuelle Wiedereintrittssperre beachten."
+      ]
+    ],
+    "mistakes": [
+      "Nicht alle Mitglieder auf dasselbe Gebäude schicken.",
+      "Kein unnötiger Verbrauch dauerhafter Heilbeschleuniger kurz vor Eventende."
+    ],
+    "plan": "SWORDLAND | Legion 1: ___ | Ersatz: ___\nTeam Heiligtum ___ | Glockenturm ___ | Stallungen ___\nSchwertschrein ab Freigabe: ___ | Punktetransporte ___\nGebäude halten, Verstärkungen nachfordern, nicht blind verteilen.",
+    "sources": [
+      "https://ks-toolkit.com/guides/swordland-showdown/",
+      "https://kingshot.wiki/events/swordland-showdown",
+      "https://kingshotwiki.com/events/swordland-showdown/"
+    ]
+  },
+  {
+    "id": "champ",
+    "title": "Allianzmeisterschaft",
+    "sub": "Drei Bahnen · zwei Flaggen anstreben",
+    "points": [
+      "Rundensieg durch mehr Flaggen; Referenz: Sieg 3 Meisterschaftspunkte, Unentschieden 1.",
+      "Zwei tragfähige Bahnen sind oft stärker als drei mittelmäßige; gegnerische Aufstellungen zwischen Runden auswerten.",
+      "Bei gleicher Meisterschaftspunktzahl entscheiden eroberte Flaggen und danach besiegte gegnerische Einheiten gemäß veröffentlichter Regelübersicht."
+    ],
+    "heroes": [
+      [
+        "Registrierung",
+        "Drei stärkste entwickelte Expeditionshelden",
+        "Aufstellung mit aktiven passenden Boni registrieren. Keine pauschale Bear-Joiner-Rangliste."
+      ]
+    ],
+    "ratios": [
+      [
+        "PvP Ausgangspunkt",
+        50,
+        20,
+        30
+      ]
+    ],
+    "steps": [
+      [
+        "Anmeldung",
+        "Alle Teilnehmer melden ihre registrierte Marschstärke."
+      ],
+      [
+        "Verteilung",
+        "Starke Spieler auf zwei Zielbahnen verteilen; dritte Bahn nach verfügbarer Stärke besetzen."
+      ],
+      [
+        "Rundenwechsel",
+        "Leitung prüft Gegnerberichte und verschiebt Spieler gezielt."
+      ]
+    ],
+    "mistakes": [
+      "Keine eigenmächtigen Bahnwechsel nach gemeinsamer Aufstellung."
+    ],
+    "plan": "MEISTERSCHAFT | Registrierung bis ___\nBahnen links ___ / Mitte ___ / rechts ___\nZwei Zielbahnen: ___ und ___ | Änderungen nur durch Leitung.",
+    "sources": [
+      "https://ks-toolkit.com/guides/alliance-championship/",
+      "https://kingshot.wiki/guides/how-to-win-the-alliance-championship",
+      "https://kingshot.net/alliance-championship-calculator",
+      "https://www.kingshotcommand.com/events/alliance-championship"
+    ]
+  },
+  {
+    "id": "mobil",
+    "title": "Allianzmobilisierung",
+    "sub": "Aufgaben · gemeinsame Meilensteine",
+    "points": [
+      "Aufgabenpunkte zählen für persönliche und Allianzbelohnungen. Höhere Multiplikatoren sind interessant, wenn die Aufgabe sicher erfüllbar ist.",
+      "Beispiel laut Toolkit: 10 spezifische mythische Heldensplitter (generische ausgeschlossen) bringen je nach angebotener Mission 200, 240 oder 400 Punkte. Die konkrete Aufgabe ist entscheidend; nicht jede Mission ist in jedem Multiplikator verfügbar."
+    ],
+    "heroes": [
+      [
+        "Helden",
+        "Geplante Entwicklung",
+        "Nur Splitter einsetzen, wenn der Held wirklich gebraucht wird und die Mission den Typ akzeptiert."
+      ]
+    ],
+    "ratios": [],
+    "steps": [
+      [
+        "Vorbereitung",
+        "Kostenlose und geplante Aufgaben markieren: Sammeln, Training, Forschung, Ausbau."
+      ],
+      [
+        "Auswahl",
+        "Nach verfügbarem Zeitbudget und Ressourcen auswählen, nicht nur nach größter Punktzahl."
+      ],
+      [
+        "Abschluss",
+        "Vor Ablauf abschließen; verbleibende Versuche für sichere Aufgaben nutzen."
+      ]
+    ],
+    "mistakes": [
+      "Kein Ressourcenverbrauch nur für eine unwahrscheinliche Rangbelohnung."
+    ],
+    "plan": "MOBILISIERUNG | Ziel ___ Punkte je Mitglied\nSichere Aufgaben bevorzugen, Multiplikator und Frist prüfen.\nOffene Allianzmeilensteine täglich melden.",
+    "sources": [
+      "https://ks-toolkit.com/data/events/alliance-mobilization/",
+      "https://kingshotlab.com/events/alliance-mobilization"
+    ]
+  },
+  {
+    "id": "brawl",
+    "title": "Allianzduell / Alliance Brawl",
+    "sub": "Tagesduelle · abgestimmte Ressourcen",
+    "points": [
+      "Tagesaktionen bringen Punkte für das Allianzduell und persönliche Truhen. Tagesregeln und Siegwertung vor Materialeinsatz prüfen.",
+      "Veröffentlichte Spielvariante: 13 Hörner insgesamt, mindestens 7 zum Gesamtsieg; der letzte Abschnitt zählt 4 Hörner. Tagesziele daher nach Hörnern statt nur Rohpunkten abstimmen."
+    ],
+    "heroes": [
+      [
+        "Helden",
+        "Passende Entwicklungsaufgabe",
+        "Splittereinsatz und Ausrüstung mit persönlichem Ausbauplan verbinden."
+      ]
+    ],
+    "ratios": [],
+    "steps": [
+      [
+        "Tageswechsel",
+        "Wertungsaufgaben und Gegnerstand kontrollieren."
+      ],
+      [
+        "Ausgabe",
+        "Nur so viel ausgeben, wie für erreichbare Belohnungen oder einen knappen Tagessieg nötig."
+      ],
+      [
+        "Schlussphase",
+        "Leitung meldet, ob weitere Punkte helfen oder Reserven besser aufgehoben werden."
+      ],
+      [
+        "Hörnerplanung",
+        "Bereits gesicherte Hörner und noch erreichbare Hörner notieren. Ressourcen für die gewinnentscheidenden Tage sparen."
+      ]
+    ],
+    "mistakes": [
+      "Nicht für bereits klar verlorene Tage unkoordiniert seltenes Material opfern."
+    ],
+    "plan": "ALLIANZDUELL | Tagesziel ___ | Reserve ___\nTagesliste beachten; bei knappen Entscheidungen Leitung fragen.",
+    "sources": [
+      "https://kingshot.net/events/alliance-brawl",
+      "https://ks-toolkit.com/guides/alliance-brawl/",
+      "https://kingshotbattlemaster.com/guides/alliance-brawl",
+      "https://ks-toolkit.com/data/events/alliance-brawl/"
+    ]
+  },
+  {
+    "id": "hall",
+    "title": "Hall of Governors",
+    "sub": "Einzelwertung · Ausbauphasen",
+    "points": [
+      "Phasen und Punktwerte ändern sich mit dem Königreichsalter. Die tägliche Spielanzeige ist maßgeblich.",
+      "Meilensteine zuerst sichern. Hohe Rangplätze sind nicht automatisch wirtschaftlich.",
+      "Community-Daten beschreiben sieben Tagesphasen. Prüfe jeweils die konkrete Tageswertung und den für dein Königreich angebotenen Belohnungshelden."
+    ],
+    "heroes": [
+      [
+        "Helden",
+        "Zielhelden der eigenen Generation",
+        "Splitter, Roulette und Ausrüstung nur bei geeigneter Tageswertung und sinnvoller Investition einsetzen."
+      ]
+    ],
+    "ratios": [],
+    "steps": [
+      [
+        "Planen",
+        "Phasenliste und erreichbare Belohnungen prüfen."
+      ],
+      [
+        "Ausgeben",
+        "Bau, Forschung, Training, Talismane, Ausrüstung und Helden nach tatsächlich gewerteten Aktionen einteilen."
+      ],
+      [
+        "Abschluss",
+        "Ressourcen für KvK zurücklegen; unerreichbare Rangplätze nicht verfolgen."
+      ]
+    ],
+    "mistakes": [
+      "Keine feste Punktetabelle über alle Servergenerationen hinweg annehmen."
+    ],
+    "plan": "HALL OF GOVERNORS | Tagesziel ___\nAktive Wertung prüfen, Meilensteine sichern, KvK-Reserve schützen.",
+    "sources": [
+      "https://ks-toolkit.com/data/events/hall-of-governors/",
+      "https://kingshot.net/events",
+      "https://kingshot.net/events/hall-of-governors"
+    ]
+  }
+]

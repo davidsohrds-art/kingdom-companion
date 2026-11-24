@@ -1,1 +1,36 @@
-# kingdom-companion
+# Kingdom Companion – Generation Command 0.5
+Inoffizielle Kingshot-Fan-App, ohne Verbindung zu Century Games.
+
+## Start
+Node.js >=18 installieren, ZIP entpacken, im Projektordner `npm start` ausführen und http://localhost:8080 öffnen. Keine externen Pakete erforderlich. Alternativ `public/index.html` als lokale Vorschau öffnen. Für gemeinsame Daten müssen alle Spieler dieselbe Serverinstanz verwenden. Niemals das Kingshot-Spielpasswort eingeben.
+
+## Enthalten
+- Registrierung und Anmeldung mit Servernummer, Spielername und eigenem App-Passwort (10–128 Zeichen), scrypt mit individuellem Salt, zufällige serverseitig gehashte Sitzungstoken (7 Tage), Abmeldung. Server prüft Identität und Königreich bei jeder öffentlichen Anfrage.
+- Öffentliche Servermeldungen, Chat, NAP-Abstimmungen, Eventkalender mit Zusagen, Aufgabenübernahme, sechs Rechner und 15 Strategiekapitel mit Quellenlinks.
+- Allianz-HQ mit Einladungscode, Mitgliederliste, Leitungsrolle, Entfernen von Mitgliedern (Code wird automatisch erneuert), privatem Chat, zeitgebundenen Plänen, Kampfberichten inkl. Verlustquote, schematischer Karte mit selbst eingetragenen Koordinaten. Die API prüft Mitgliedschaft und Rechte. Keine offiziell verifizierten Spielidentitäten oder R4/R5-Rollen. Private Bereiche sind zugriffsbeschränkt, nicht Ende-zu-Ende-verschlüsselt.
+- Lokale HTML-Vorschau speichert nur auf dem Gerät und simuliert die eigene Allianz; keine echte Anmeldung oder Multiplayer-Synchronisation. Online-Version fragt öffentliche Daten alle drei Sekunden ab, sichtbare Allianzbereiche alle vier Sekunden.
+
+## Betrieb
+`PORT`, `HOST`, `DATA_FILE` sind konfigurierbar. Standard: `data/rooms.json` und `data/rooms.json.accounts`. Beide Dateien sichern und Zugriffe beschränken. Für 0.3 mit leerem Datenverzeichnis beginnen: ältere anonyme Eigentümerkennungen können nicht neuen Konten zugeordnet werden. Alte Dateien bleiben als Sicherung erhalten; keine Migration enthalten. App ist ein Prototyp für kleine Testgruppen. Vor Internet-Veröffentlichung HTTPS, E-Mail-Verifizierung und Kontowiederherstellung, Kontolöschung, Moderationskonsole, Missbrauchsschutz, robuste Datenbank, Datenschutz/Impressum und Sicherungskonzept ergänzen. Öffentliches Hosting und Android-Paket sind nicht enthalten. Einfache IP-Ratenbegrenzung; keine produktionsreife Skalierung. Spielername und Allianz-Kürzel sind Selbstauskünfte; Serverzugang entspricht nicht der tatsächlichen Spielmitgliedschaft. Öffentliche Beiträge pro Königreich sind für alle dort registrierten App-Konten sichtbar.
+
+## Spieldaten
+Keine automatische Anbindung an Kingshot. Termine, Koordinaten, Kampfberichte und Absprachen werden manuell eingetragen. Der einstellbare Wiederholungsplaner ist keine offizielle Eventvorhersage. Rechner verwenden eigene Spielwerte. Strategien sind Community-Empfehlungen; Generationen, Werte, Events und Regeln im Spiel überprüfen. Quellenlinks in den 15 Kapiteln aus Version 0.2; in dieser Version nicht neu recherchiert.
+
+## Tests
+`npm test`: API-Tests für Servertrennung, Anmeldung, unberechtigte Zugriffe, öffentliche Beiträge, Abstimmung, Aufgaben, Eventzusagen, Gruppenbeitritt, Rechte, Kartenpunkte, Kampfberichte und Mitgliederentfernung. JS-Syntax geprüft. Lokale Vorschau in Chromium mit simuliertem lokalen Speicher bei 390px Bildschirmbreite geprüft (Profil, Allianz, Chat, Karte). Online-Browserprüfung blockiert durch Testumgebung (ERR_BLOCKED_BY_ADMINISTRATOR); kein echter Android-Gerätetest. Keine produktionsreife Sicherheitsprüfung.
+
+## Neu in 0.4 – Event-Taktik
+Startansicht mit neun recherchierten Einsatzhandbüchern: Bärenfalle, Wikinger-Rache, Schloss, KvK, Swordland, Allianzmeisterschaft, Mobilisierung, Allianzduell, Hall of Governors. Rollenfilter, Beispiel-Formationen, Punktequellen, lokale Checklisten, editierbare Vorlagen, Übernahme in privaten Allianzplan oder Eventkalender. Die Entwürfe werden nicht automatisch gesendet; bestehende sechs Rechner bleiben im letzten Menü. Quellen in jedem Handbuch; Beispielwerte sind keine garantierten Optima. Keine Spiel-API. Die manuell gepflegte Datenbasis liegt zusätzlich in event-manual.json (Informationskopie; zur Änderung der UI muss die eingebettete Konstante im HTML aktualisiert werden).
+0.4-Tests: bestehender API-Test erfolgreich; Chromium bei 390px mit eingebettetem HTML und simuliertem lokalem Speicher: 9 Eventschaltflächen, Wikinger-Auswahl, Checklisten-Persistenz beim Eventwechsel, Allianzplan- und Kalenderübernahme erfolgreich, keine JS-Fehler. Direkter file:-Aufruf vom Browser blockiert; kein Android-/Online-End-to-End-Test.
+
+## Neu in 0.5 – Generationensteuerung
+- Staffel 1–8 einzeln wählbar; Staffel 9+ ausdrücklich als nicht verifiziert markiert und nur Übergang mit bekannten Gen-1–8-Helden. Ohne Auswahl keine generierte Heldenanweisung.
+- Auswahl wird lokal je Königreich gespeichert (nicht serverweit synchronisiert). Alle neun Eventhandbücher erhalten generationengerechte Rollenempfehlungen und bearbeitbare Anweisungen; eigene Entwürfe sind nach Königreich, Spieler, Event und Generation getrennt. Ältere Helden bleiben als Kandidaten erhalten. Keine automatische Erkennung der tatsächlichen Helden im Spiel.
+- Konkrete Trio-Vorschläge sind redaktionell zusammengestellte Testaufstellungen auf Basis der verlinkten Guides, keine universelle Rangliste. Gen 7/8 und F2P-Varianten besonders nach eigenem Ausbau und Kampfbericht prüfen. Neue Generationen in generation-data.json und in der eingebetteten generationData-Konstante pflegen.
+- Tests: npm test erfolgreich. Chromium mit eingebettetem HTML und simuliertem lokalem Speicher bei 390px: 81 Event-/Generationskombinationen (inkl. 9+), keine späteren Helden in generierten Vorlagen/Empfehlungen; getrennte Königreichseinstellungen, eigene Entwürfe und Rücksetzen erfolgreich. Direkte Browsernavigation durch Umgebung blockiert; kein Android-/Online-End-to-End-Test.
+
+## Neu in 0.6 – Fachrevision (24.11.2026)
+- Alle neun Eventhandbücher anhand neuer Suchauszüge abgeglichen. Offizielles Hilfecenter für Schlossdauer/Turmregel und Community-Referenzen für Strategien; Vollseiten waren teilweise nicht abrufbar. Keine unabhängige Ingame-Validierung. Neue Gen 9 (Lotte/Bayar/Theia) vorläufig aus Community-Daten; keine bestätigte PvP-Rangliste. Gen 10+ nur Übergangsstrategie. Frühere Auswahl 9+ wird als 10+ behandelt.
+- Separate Entwürfe und Checklisten für Falle 1/2. Neue lokale Schlüssel schützen vor Übernahme veralteter Fachvorlagen; alte 0.5-Entwürfe bleiben im lokalen Speicher, werden nicht automatisch übernommen. Persönliche Teilnehmerhelden: erste Expeditionsfähigkeit 0–5 pro Spieler/Königreich; Filter nach Generation, Sortierung nach Skillstufe, keine Schadenssimulation. Wellen 1–20 einzeln anklickbar.
+- Fachliche Details: Schloss-Siegschwelle 2,5 h laut offizieller FAQ, Kontrolle im Spiel; Wilson, Olander, Hörnerwertung, unsichere Stapelboni und differenzierte HQ-Formationen. Veraltete feste KvK-Kampfwerte entfernt.
+- Tests: bestehender Node-API-Test; 90 Event-/Generationskombinationen, getrennte Fallenentwürfe, persönliche Heldenauswahl, Filter und Wellenanzeige mit Chromium, 390 px, eingebettetem HTML und simuliertem Speicher. Direkte Navigation und Android/Online-End-to-End weiterhin nicht getestet.
