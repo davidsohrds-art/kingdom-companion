@@ -13,6 +13,7 @@ const files={'/':'index.html','/index.html':'index.html'};
 const security=require('./security')(data,reply,body);
 http.createServer(async(req,res)=>{try{
 const u=new URL(req.url,'http://localhost');res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','no-referrer');res.setHeader('X-Frame-Options','DENY');
+if(req.method==='GET'&&u.pathname==='/healthz')return reply(res,200,{ok:true});
 if(req.method==='GET'&&files[u.pathname]){res.writeHead(200,{'Content-Type':'text/html; charset=utf-8'});return res.end(fs.readFileSync(path.join(__dirname,'public',files[u.pathname])));}
 if(await security.route(req,res,u))return;
 const m=u.pathname.match(/^\/api\/rooms\/([1-9][0-9]{0,7})(?:\/(chat|events|news|agreements|tasks|action|report))?$/);if(!m)return reply(res,404,{error:'Nicht gefunden'});

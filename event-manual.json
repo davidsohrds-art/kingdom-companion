@@ -7,7 +7,8 @@
       "Persönliche Belohnungen richten sich nach dem erzielten Schaden. Die nächste erreichbare Belohnungsstufe ist wichtiger als ein unrealistischer Rang.",
       "Nach jeder Rally den Schaden im Bericht notieren; gleiche Leiter, Truppenstufe und Boni vergleichen.",
       "Beispiel-Meilensteine der veröffentlichten Belohnungstabelle: 100 Mio., 250 Mio., 500 Mio., 1 Mrd. Schaden. Prüfe deine tatsächlich sichtbaren Stufen.",
-      "Die Jagd dauert laut Community-Guide 30 Minuten. Bei zwei Fallen Teilnahmeberechtigung und Abklingzeit im Spiel prüfen; keine doppelte Belohnung voraussetzen."
+      "Die Jagd dauert laut Community-Guide 30 Minuten. Bei zwei Fallen Teilnahmeberechtigung und Abklingzeit im Spiel prüfen; keine doppelte Belohnung voraussetzen.",
+      "Fallen 1 und 2 sind alternative Termine: Teilnahme an einer Falle kann die andere bis zum Ablauf der Abklingzeit sperren. Kein doppeltes Belohnungsrecht voraussetzen. Bei parallelen Märschen jeden Helden nur einmal einplanen."
     ],
     "heroes": [
       [
@@ -117,7 +118,8 @@
       "https://ks-toolkit.com/data/events/bear-hunt/",
       "https://kingshot.cloud/guides/kingshot-bear-trap",
       "https://strategicnoodle.com/kingshot/database/heroes",
-      "https://centurygames.helpshift.com/hc/en/140-kingshot/faq/9041-what-should-i-do-if-i-miss-bear-hunt/"
+      "https://centurygames.helpshift.com/hc/en/140-kingshot/faq/9041-what-should-i-do-if-i-miss-bear-hunt/",
+      "https://kingshot.cloud/guides/kingshot-bear-trap"
     ]
   },
   {
@@ -233,9 +235,10 @@
     "title": "Kampf um das Königsschloss",
     "sub": "PvP · Schloss und vier Türme",
     "points": [
-      "Offizielles Hilfecenter (Recherche 24.11.2026): 2,5 Stunden Schlossbesetzung als Siegschwelle. Aktuelle Community-Referenz nennt 2,5 Stunden am Stück, sonst längste gesamte Besetzung. Ältere Guides nennen abweichende Werte; die laufende Ingame-Regel entscheidet.",
+      "Herstellerregel für den normalen Schlosskampf: Sieg bei 2,5 Stunden Besetzung. Ist nach 5 Stunden kein Sieger ermittelt, gewinnt die Allianz mit der längsten Besetzungszeit. Die laufende Spielanzeige entscheidet.",
       "Persönliche Wertung umfasst je nach Regelwerk Kampf und stationierte Truppenmacht. Belohnungen gegen Heilkosten und Verlustrisiko abwägen.",
-      "Ein Turm derselben Allianz beschießt das eigene Schloss nicht. Bei gegnerisch gehaltenen Türmen verkürzen sich die Beschussintervalle mit der Besetzungszeit."
+      "Ein Turm derselben Allianz beschießt das eigene Schloss nicht. Bei gegnerisch gehaltenen Türmen verkürzen sich die Beschussintervalle mit der Besetzungszeit.",
+      "Garnison: Der Spieler mit den höchsten Stat-Boni liefert laut offizieller Kampf-FAQ die Verteidigungsboni. Vier primäre Fähigkeiten anderer Garnisonsmitglieder werden zusätzlich aktiviert; nach Wechsel im Bericht prüfen."
     ],
     "heroes": [
       [
@@ -339,7 +342,8 @@
       "Fünf Vorbereitungstage mit unterschiedlichen Wertungsaktionen; danach Kampf. Die Tageswertung im Spiel hat Vorrang.",
       "Referenzwerte für passende Wertungstage: Truegold beim Gebäudeausbau 2.000; Mithril 40.000; 1 Minute gültiger Beschleunigung 30; Tempered Truegold 30.000. Nur gewertete und bereits freigeschaltete Aktionen zählen.",
       "Kampfphase: Persönliche Wertung und Besetzungswertung im Spiel nachsehen. Die früher hinterlegten festen T8–T10-Kampfwerte sind nicht ausreichend aktuell bestätigt und wurden entfernt.",
-      "Falls Meister Olander bereits freigeschaltet ist, seine Oration vor der Vorbereitung prüfen: laut aktueller Datenbank +2 % Vorbereitungspunkte pro Skillstufe und zusätzliche tägliche Belohnungsschwellen."
+      "Falls Meister Olander bereits freigeschaltet ist, seine Oration vor der Vorbereitung prüfen: laut aktueller Datenbank +2 % Vorbereitungspunkte pro Skillstufe und zusätzliche tägliche Belohnungsschwellen.",
+      "KvK-Schlosskampf nicht mit normalem Schlosskampf gleichsetzen: Offizielle KvK-FAQ nennt ein fünfstündiges Schlosskampf-Zeitfenster und längste Besetzung. Aktuelle Eventanzeige hat Vorrang."
     ],
     "heroes": [
       [
@@ -391,7 +395,8 @@
       "https://kingshotdata.com/events/kingdom-of-power-kvk-event/",
       "https://kingshotmastery.com/events/kingdom-of-power-kvk-event",
       "https://kingshot.net/events/kingdom-of-power",
-      "https://ks.h5joy-games.com/events/kingdom-of-power/"
+      "https://ks.h5joy-games.com/events/kingdom-of-power/",
+      "https://centurygames.helpshift.com/hc/en/140-kingshot/section/1532-kingdom-of-power/"
     ]
   },
   {
